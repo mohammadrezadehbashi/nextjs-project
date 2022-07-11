@@ -54,7 +54,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by سلام{' '}
           <img src="/vercel.svg" alt="Vercel" className="logo" />
         </a>
       </footer>
