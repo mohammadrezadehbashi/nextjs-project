@@ -1,0 +1,73 @@
+@import "../Variable//Variable.module.scss";
+
+.container {
+    background-color: $background-color;
+    display: flex;
+    width: $widthScreen;
+    height: 640px;
+    // margin: 1px;
+    justify-content: center;
+    align-items: center;
+  }
+
+.SignUp{
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height:80%;
+    background-color: $cardColor;
+    display: flex;
+    border-radius: 30px;
+    box-shadow:$shadow;
+    flex-direction: column;
+    
+}
+.box{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    // background-color: aqua;
+    width: 96%;
+    height: 80%;
+}
+.img{
+    width: 48%;
+    height:95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background:red;
+}
+.form{
+    width: 48%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+}
+.inputname{
+    width:350px;
+    margin: 15px;
+    border-width: 10pc;
+    display: flex;
+    font-size: 50px;
+    font-weight: bolder;
+    
+}
+.btn{
+    width:150px;
+    color:rgb(41, 147, 233);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
